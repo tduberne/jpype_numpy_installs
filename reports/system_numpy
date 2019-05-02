@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "test.py", line 6, in <module>
+    jarr = jpype.JArray(jpype.JByte)(a)
+  File "/usr/local/lib/python3.6/dist-packages/jpype/_jarray.py", line 110, in _jarrayInit
+    self, _jpype.newArray(self.__class__.__javaclass__, sz))
+TypeError: only length-1 arrays can be converted to Python scalars
